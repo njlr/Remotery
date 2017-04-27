@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'sample',
+  srcs = [
+    'sample.c',
+  ],
+  deps = [
+    '//:remotery',
+  ],
+)
